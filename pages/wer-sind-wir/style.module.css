@@ -1,0 +1,26 @@
+.mainBlock {
+    padding: 30px;
+    background-color: var(--color1);
+  }
+
+
+.lastBlock {
+  background-color: var(--background);
+  color: #000;
+  padding: 30px;
+}
+
+.lastBlock h1 {
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.information div {
+  max-width: 300px;
+}

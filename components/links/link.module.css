@@ -1,0 +1,14 @@
+.link {
+    padding: 50px;
+    background-color: var(--color1);
+}
+
+.linkLeft {
+    padding: 50px;
+    background-color: var(--color1_1);
+}
+
+.image{
+    width: 250px;
+    height: auto;
+}

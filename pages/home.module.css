@@ -1,0 +1,28 @@
+.mainBlock {
+    padding: 50px 30px 30px 30px;
+    width: fit-content;
+    background-color: var(--color1_1);
+  }
+  
+  .informationBlock {
+    padding: 50px 30px 30px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .informationBlock > .row {
+    
+  }
+  
+  .informationImage {
+    filter: drop-shadow(#000 0rem 0.5rem 0.2rem);
+  }
+  
+  .whoBlock {
+    padding: 50px 30px 30px 30px;
+    width: fit-content;
+  }
+
+  .lists {
+    list-style: none;
+    padding: 0;
+  }

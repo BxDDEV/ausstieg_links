@@ -1,0 +1,5 @@
+.mainBlock {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 30px;
+  }

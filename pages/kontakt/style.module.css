@@ -1,0 +1,16 @@
+.header {
+  font-weight: bold;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+@media (max-width:400px)
+{
+  .image {
+    width: 200px;
+    height: auto;
+  }
+}

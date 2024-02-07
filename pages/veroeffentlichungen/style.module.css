@@ -1,0 +1,21 @@
+.pdfBlock {
+    text-align: center;
+    padding: 30px;
+}
+
+.pdf 
+{
+    height: 600px;
+    width: 80%;
+}
+
+@media (max-width:400px)
+{
+    .pdfBlock {
+        padding: 30px 10px;
+    }
+
+    .pdf {
+        width: 100%;
+    }
+}

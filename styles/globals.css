@@ -1,0 +1,67 @@
+:root {
+  --color1: #00A9FF;
+  --color2: #89CFF3;
+  --color3: #A0E9FF;
+  --color4: #CDF5FD;
+
+  --background: #fff;
+  --primary:#0067a5;
+
+  --buttonColor: #d71c29
+}
+
+* {
+  font-family: Barlow, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  color: var(--background);
+}
+
+.block {
+  background-color: var(--primary);
+  font-size: 1.3rem;
+  color: var(--background);
+  min-height: calc(100vh - 86px);
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-wrap:wrap;
+  min-height: 300px;
+  gap:20px;
+}
+
+.col-text {
+  flex: 1 1 0;
+  min-width: 300px;
+  margin: auto;
+}
+
+.col-image {
+  flex: 1 1 1;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width:480px)
+{
+  .container {
+    font-size: 1rem;   
+  }
+
+  h1 {
+    text-align: center;
+  }
+}
