@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 env:
   NODE_VERSION: 20
-  APP_NAME: 'Testing'
-  DEPLOY_PATH: '/var/www/testing'
+  APP_NAME: 'ExitLinks'
+  DEPLOY_PATH: '/var/www/exitlinks'
   PORT: 22
 
 jobs:
