@@ -10,24 +10,19 @@ export default function Footer()
                     <div className={styles.footerWidth}>
                         <p><strong>KONTAKT</strong></p>
                         <br/>
-                        <p style={{margin:'5px 0'}}>AfD Thüringen</p>
-                        <p>Alte Chaussee 87 / Haus 12</p>
-                        <p>99097 Erfurt-Waltersleben</p>
+                        <p style={{margin:'5px 0'}}>AfD Fraktion im Thüringer Landtag</p>
+                        <p>Jürgen-Fuchs-Str. 1</p>
+                        <p>99096 Erfurt</p>
 
                         <table>
                             <tbody>
-
                             <tr>
                                 <td><i className="fa-solid fa-envelope"></i></td>
-                                <td><a href="mailto:geschaeftsstelle@afd-thueringen.de">geschaeftsstelle@afd-thueringen.de</a></td>
+                                <td><a href="mailto:info@afd-thl.de">info@afd-thl.de</a></td>
                             </tr>
                             <tr>
                                 <td><i className="fa-solid fa-phone"></i></td>
-                                <td>0361 / 341 968 65 und 68</td>
-                            </tr>
-                            <tr>
-                                <td><i className="fa-solid fa-fax"></i></td>
-                                <td>0361 / 341 968 67</td>
+                                <td>0361 377 2469</td>
                             </tr>
                             <tr>
                                 <td><i className="fa-solid fa-globe"></i></td>
