@@ -7,7 +7,10 @@ export default function Document() {
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
-      <Head />
+      <Head>
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico"/>
+      </Head>
       <body>
         <Main />
         <NextScript />
