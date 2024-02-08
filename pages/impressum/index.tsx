@@ -1,8 +1,13 @@
+import Head from "next/head";
+
 export default function _()
 {
 
     return (
         <div className="block container" style={{padding:'30px'}}>
+                    <Head>
+      <title>ExitLinks - Impressum</title>
+    </Head>
             <h1>
                 Impressum
             </h1>
