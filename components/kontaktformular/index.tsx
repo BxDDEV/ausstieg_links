@@ -4,7 +4,7 @@ import styles from './style.module.css'
 
 export default function Kontaktformular()
 {
-  const [state, handleSubmit] = useForm("")
+  const [state, handleSubmit] = useForm("ss")
 if(state.succeeded) {
   return <p>Thanks</p>
 }    
