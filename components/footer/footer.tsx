@@ -36,7 +36,7 @@ export default function Footer()
                         <br />
                         <Link href="impressum">{'>'} Impressum</Link>
                         <hr />
-                        <Link href="/">{'>'} Datenschutz</Link>
+                        <Link href="datenschutz">{'>'} Datenschutz</Link>
                         <hr />
                         <br />
                         <br />
