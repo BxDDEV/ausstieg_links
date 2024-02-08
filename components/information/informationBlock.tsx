@@ -14,18 +14,19 @@ export default function InformationBlock(param: any) {
         <div className="col-text">
           {child}
         </div>
-        <div className="col-image">
+        {image && (<div className="col-image">
           <Image src={`/${image}`} height={0} width={0} sizes="100vw" className={styles.icon} alt="" style={{ width: w, height: 'auto' }}></Image>
-        </div>
+        </div>)}
+        
         </div>
     )
   }
 
   return (
     <div className={styles.row +' '+ styles.left}>
-      <div className="col-image">
+      {image && (<div className="col-image">
         <Image src={`/${image}`} height={0} width={0} sizes="100vw" className={styles.icon} alt="" style={{ width: w, height: 'auto' }}></Image>
-      </div>
+      </div>)}
       <div className="col-text">
       {child}
       </div>
