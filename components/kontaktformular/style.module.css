@@ -1,0 +1,23 @@
+.form {
+    margin: auto;
+    padding: 0 10%;
+}
+
+.submitButton
+{
+  background-color: var(--buttonColor);
+  padding: 10px;
+  border-radius: 5px;
+  border-color: var(--buttonColor);
+  border-style: solid;
+  text-decoration: none;
+  color: var(--color4);
+  font-size: 1.2rem;
+}
+
+.submitButton:hover 
+{
+  background-color: var(--color4);
+  color: var(--buttonColor);
+  border: 3px solid var(--buttonColor);
+}
