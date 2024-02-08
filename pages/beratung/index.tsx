@@ -15,7 +15,7 @@ export default function _() {
             <InformationBlock imageRight={true} image='icons/4.png' width="200px">
                 <h1 className={styles.header}>Neu: Anonyme Online-Beratung</h1>
                 <br />
-                <p className={styles.header}>Per <Link href="/">Kontaktformular</Link></p>
+                <p className={styles.header}>Per <Link href="kontakt">Kontaktformular</Link></p>
             </InformationBlock>
 
             <InformationBlock imageRight={false} image='' width="0px">
