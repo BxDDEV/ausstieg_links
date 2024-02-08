@@ -1,7 +1,12 @@
 import InformationBlock from "@/components/information/informationBlock";
+import Head from "next/head";
 export default function _() {
 
     return (
+        <>
+        <Head>
+      <title>ExitLinks - Wer sind wir?</title>
+    </Head>
         <div className="block container">
             <div className="mainBlock">
                 <InformationBlock imageRight={true} image="map.png" width="400px" height="auto">
@@ -30,5 +35,6 @@ export default function _() {
                 </InformationBlock>
             </div>
         </div>
+        </>
     )
 }

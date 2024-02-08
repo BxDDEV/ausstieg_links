@@ -2,10 +2,15 @@ import Image from "next/image";
 import styles from './style.module.css';
 import InformationBlock from "@/components/information/informationBlock";
 import Link from "next/link";
+import Head from "next/head";
 
 export default function _() {
 
     return (
+        <>
+        <Head>
+      <title>ExitLinks - Online Beratung</title>
+    </Head>
         <div className="block container">
             <InformationBlock imageRight={true} image='icons/4.png' width="200px">
                 <h1 className={styles.header}>Neu: Anonyme Online-Beratung</h1>
@@ -28,5 +33,6 @@ export default function _() {
             </InformationBlock>
             
         </div>
+        </>
     )
 }

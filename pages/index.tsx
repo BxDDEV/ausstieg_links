@@ -1,9 +1,14 @@
 import Button from "@/components/button/button";
 import InformationBlock from "@/components/information/informationBlock";
+import Head from "next/head";
 
 export default function Home() {
 
   return (
+    <>
+    <Head>
+      <title>ExitLinks</title>
+    </Head>
     <div className="container block">
       <InformationBlock imageRight={true} image="home.png" width="300px">
         <h1>Du kennst jemanden, der oder die Hilfe beim Verlassen der linken Szene braucht?</h1>
@@ -92,5 +97,6 @@ export default function Home() {
         <Button path="wer-sind-wir" text="weiterlesen" />
       </InformationBlock>
     </div>
+    </>
   )
 }
