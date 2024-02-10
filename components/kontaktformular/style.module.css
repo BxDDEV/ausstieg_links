@@ -1,6 +1,6 @@
 .form {
     margin: auto;
-    padding: 0 10%;
+    width: 500px;
 }
 
 .submitButton
@@ -20,4 +20,29 @@
   background-color: var(--color4);
   color: var(--buttonColor);
   border: 3px solid var(--buttonColor);
+}
+
+.datenschutz
+{
+  color: var(--buttonColor);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.datenschutzerklärung {
+  font-size: 1rem;
+}
+
+
+@media (max-width:480px)
+{
+  .form
+  {
+    width: 400px;
+  }
+
+  .datenschutzerklärung
+  {
+    font-size: 0.8rem;
+  }
 }

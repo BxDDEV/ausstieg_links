@@ -38,6 +38,10 @@ textarea {
   resize: vertical;
 }
 
+textarea {
+  height: 100px;
+}
+
 .block {
   background-color: var(--primary);
   font-size: 1.3rem;
