@@ -42,7 +42,7 @@ jobs:
       run: |
         echo 'username=${{secrets.USERNAME}}' > .env.local
         echo 'password=${{secrets.PASSWORD}}' >> .env.local
-        echo 'NEXTAUTH_URL=${{secrets.NEXTAUTH_URL}}' >> .env.local
+        echo 'NEXTAUTH_URL=https://exitlinks.de' >> .env.local
 
       # Build the Project with npm run build
     - name: Build Project
