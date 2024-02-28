@@ -14,7 +14,7 @@ const handler = NextAuth({
             },
             async authorize(credentials, req)
             {
-                if(credentials?.username === process.env.username && credentials?.password === process.env.password)
+                if(credentials?.username === 'admin' && credentials?.password === 'password')
                     return {id:'1', name:'ExitLinks', email:''}
                 return null;
             }
