@@ -38,6 +38,12 @@ jobs:
     - name: Install Dependencies
       run: npm ci
 
+    - name: Create .env.local
+      run: |
+        echo 'username=${{secrets.USERNAME}}' > .env.local
+        echo 'password=${{secrets.PASSWORD}}' >> .env.local
+        echo 'NEXTAUTH_URL=${{secrets.NEXTAUTH_URL}}' >> .env.local
+
       # Build the Project with npm run build
     - name: Build Project
       run: npm run build
