@@ -40,8 +40,8 @@ jobs:
 
     - name: Create .env.local
       run: |
-        echo 'username=admin' > .env.local
-        echo 'password=password' >> .env.local
+        echo 'username=${{secrets.USERNAME}}' > .env.local
+        echo 'password=${{secrets.PASSWORD}}' >> .env.local
         echo 'NEXTAUTH_URL=${{secrets.NEXTAUTH_URL}}' >> .env.local
         echo 'NEXTAUTH_SECRET=${{secrets.NEXTAUTH_SECRET}}' >> .env.local
 
