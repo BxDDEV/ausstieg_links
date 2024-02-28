@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import styles from './footer.module.css'
+import { signIn, signOut, useSession } from 'next-auth/react'
 
 export default function Footer()
 {
+    const {data:session} = useSession();
     return (
         <footer >
             <div className={styles.footer1}>
@@ -45,7 +47,12 @@ export default function Footer()
                     <div className={styles.footerWidth}>
                         <p><strong>ADMIN</strong></p>
                         <br />
-                        <Link href="/">Login</Link>
+                        {!session && (
+                            <Link href="" onClick={() => signIn()}>Login</Link>
+                        )}
+                        {session && (
+                            <Link href="" onClick={() => signOut()}>Logout</Link>
+                        )}
                     </div>
                 </div>
             </div>
